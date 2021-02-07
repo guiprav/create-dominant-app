@@ -1,0 +1,27 @@
+{
+  "name": "create-dominant-app",
+  "version": "0.0.1",
+  "description": "Zero-configuration Dominant app generator",
+  "author": "Gui Prá (super.driver.512@gmail.com)",
+  "license": "ISC",
+  "bin": {
+    "create-dominant-app": "cda.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/guiprav/create-dominant-app.git"
+  },
+  "keywords": [
+    "dominant",
+    "zero-configuration",
+    "build-tools"
+  ],
+  "bugs": {
+    "url": "https://github.com/guiprav/create-dominant-app/issues"
+  },
+  "homepage": "https://github.com/guiprav/create-dominant-app#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "shelljs": "^0.8.4"
+  }
+}
