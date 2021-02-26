@@ -9,11 +9,8 @@
 Runs the app in development mode.<br>
 Open http://localhost:5000/ to view it in the browser.
 
+The page will reload if you make edits.
+
 ### npm run build
 
 Bundles the app for production.
-
-### npm run watch
-
-Watches for file changes and rebundles the app for development.<br>
-Typically invoked indirectly by `npm start`.
