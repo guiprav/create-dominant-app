@@ -7,7 +7,7 @@
 ### npm start
 
 Runs the app in development mode.<br>
-Open http://localhost:5000/ to view it in the browser.
+Open http://localhost:9966/ to view it in the browser.
 
 The page will reload if you make edits.
 
