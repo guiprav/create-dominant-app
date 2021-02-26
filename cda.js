@@ -15,7 +15,7 @@ if (args.length !== 1) {
 }
 
 let targetPath = args[0];
-let fullPath = resolve(__dirname, targetPath);
+let fullPath = resolve(process.cwd(), targetPath);
 let pkgName = basename(targetPath);
 
 sh.set('-e');
