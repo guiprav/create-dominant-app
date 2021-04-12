@@ -6,7 +6,7 @@
   "license": "ISC",
   "scripts": {
     "start": "budo index.js -Pld public -- -t babelify -t envify",
-    "build": "NODE_ENV=production browserify -t babelify -t envify -g uglifyify index.js | terser -co public/bundle.js"
+    "build": "NODE_ENV=production browserify -t babelify -t envify -g uglifyify index.js | terser -co public/index.js"
   },
   "babel": {
     "plugins": [
@@ -24,7 +24,7 @@
     ]
   },
   "dependencies": {
-    "@dominant/core": "^0.1.5"
+    "@dominant/core": "^0.1.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
