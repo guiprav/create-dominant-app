@@ -5,8 +5,8 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "budo index.js -Pld public -- -t babelify -t envify",
-    "build": "NODE_ENV=production browserify -t babelify -t envify -g uglifyify index.js | terser -co public/index.js"
+    "start": "cross-env NODE_ENV=development budo index.js -Pld public -- -t babelify -t envify",
+    "build": "cross-env NODE_ENV=production browserify -t babelify -t envify index.js >public/index.js"
   },
   "babel": {
     "plugins": [
@@ -34,9 +34,8 @@
     "babelify": "^10.0.0",
     "browserify": "^17.0.0",
     "budo": "^11.6.4",
-    "envify": "^4.1.0",
-    "terser": "^3.17.0",
-    "uglifyify": "^5.0.2"
+    "cross-env": "^7.0.3",
+    "envify": "^4.1.0"
   },
   "publishConfig": {
     "access": "private"
