@@ -8,7 +8,7 @@ $ cd your-app-name
 $ npm start
 ```
 
-Then open http://localhost:5000/ to see your app.<br>
+Then open http://localhost:9966/ to see your app.<br>
 When you're ready to deploy to production, create a minified bundle with `npm run build`.
 
 See [Dominant](https://www.npmjs.com/package/@dominant/core) for more information.
